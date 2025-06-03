@@ -68,5 +68,150 @@ body {
   height: 32px;
   border-radius: 5px;
   cursor: pointer;
+}
 
+/*Hero Section*/
+
+.hero{
+  height: 80vh;
+  background: linear-gradient(
+    to bottom,
+    rgba(0,0,0,0.4) 0%,
+    rgba(0,0,0,0.8) 100%),
+    url(assets/Stranger_Things_Cast.jpg) center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 60px;
+  margin-bottom: 20px;
+}
+
+.hero-content{
+  max-width: 600px;
+}
+.hero-title{
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+.hero-description{
+  font-size: 18px;
+  margin-bottom: 24px;
+  color: #e5e5e5;
+}
+.hero-button{
+  display: flex;
+  gap: 10px;
+}
+.btn{
+  padding: 10px 10px;
+  background-color: #fff;
+  color: #0000;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3;
+}
+.btn-play{
+  background-color: #fff;
+  color: #000;
+}
+.btn-play:hover{
+  background-color: rgba(255, 255, 255, 0.75);
+}
+.btn-more-info{
+   background-color: #fff;
+   color: #000;
+}
+.btn-more-info:hover{
+  background-color: rgba(109, 109, 110, 0.4);
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #000;
+  color: #808080;
+  padding: 50px 60px 20px;
+  margin-top: 50px;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-top {
+  margin-bottom: 30px;
+}
+
+.social-links {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.social-link {
+  color: #808080;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+.social-link:hover {
+  color: #fff;
+}
+
+.footer-links {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.footer-column ul {
+  list-style: none;
+}
+
+.footer-column ul li {
+  margin-bottom: 15px;
+}
+
+.footer-column ul li a {
+  color: #808080;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.footer-column ul li a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #333;
+}
+
+.service-code {
+  background: transparent;
+  color: #808080;
+  border: 1px solid #808080;
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: all 0.3s;
+}
+
+.service-code:hover {
+  color: #fff;
+  border-color: #fff;
+}
+
+.copyright {
+  font-size: 12px;
+  color: #808080;
 }
