@@ -14,6 +14,12 @@ profileIcon.addEventListener("click", () => {
   window.location.href = "profile.html";
 });
 
+//Home Section Redirecting
+const Logo = document.querySelector(".navbar-brand");
+Logo.addEventListener("click", () => {
+  window.location.href = "index.html";
+});
+
 // Movie Card 
 const movieCards = document.querySelectorAll(".movie-card");
 movieCards.forEach((card) => {
