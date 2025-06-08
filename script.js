@@ -41,3 +41,8 @@ movieCards.forEach((card) => {
       row.scrollLeft += e.deltaY;
     }, { passive: false });
   });
+
+  // Navbar Responsiveness 
+  document.querySelector('.menu-toggle').addEventListener('click', function () {
+  document.querySelector('.navbar-nav').classList.toggle('active');
+});
