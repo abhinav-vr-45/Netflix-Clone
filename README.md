@@ -70,8 +70,8 @@ A huge thanks to **Devtown** for their incredible bootcamp on building a Netflix
 
 ## 📬 Contact
 If you have any questions or feedback, feel free to reach out:
-GitHub: [abhinav-vr](github.com/abhinav-vr-45)
-LinkedIn:[Abhinav V R](https://www.linkedin.com/in/abhinavvr)
+### GitHub: [abhinav-vr](abhinav-vr-45)
+### LinkedIn:[Abhinav V R](https://www.linkedin.com/in/abhinavvr)
 
 
 ### **Why This README Works**
