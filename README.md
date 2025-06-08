@@ -25,7 +25,15 @@ This is a **responsive Netflix clone** website designed to provide a visually ap
 ---
 
 ## 📸 Screenshots
-_Add screenshots of your project here (optional)_
+
+### 🌟 Home Page:
+![Home Page](assets/home.jpg)
+
+### 🎥 Movie Section:
+![Movies](assets/movies_section.jpg)
+
+### 👤 Profile Page:
+![Profile Page](assets/profile_section.jpg)
 
 ---
 
@@ -33,36 +41,36 @@ _Add screenshots of your project here (optional)_
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/your-username/netflix-clone.git
-
-2. **Navigate into the project folder::**
-```bash
-cd Netflix-clone
-
+2. **Navigate into the project folder:**
+    ```bash
+    cd Netflix-clone
 3. **Open index.html in your browser:**
-```bash
-open index.html
+   ```bash
+   open index.html
 
-🚀 Future Enhancements
-🔗 Backend Integration – Add user authentication and streaming functionality.
+## 🚀 Future Enhancements
+### 🔗 Backend Integration – Add user authentication and streaming functionality.
 
-🎥 Real Content – Connect with an API to fetch real movie data.
+### 🎥 Real Content – Connect with an API to fetch real movie data.
 
-💬 User Reviews – Allow users to leave reviews and ratings.
+### 💬 User Reviews – Allow users to leave reviews and ratings.
 
-🤝 Contributing
+
+## 🤝 Contributing
 Contributions are welcome! If you have suggestions or improvements, feel free to fork the repository and submit a pull request.
 
-📜 License
-This project is MIT Licensed, meaning you are free to use and modify it.
 
-🙌 Acknowledgments
-Special thanks to Netflix for design inspiration. This project is made purely for educational and portfolio purposes.
+## 📜 License
+This project is not yet Licensed.
 
-📬 Contact
+
+## 🙌 Acknowledgments
+A huge thanks to **Devtown** for their incredible bootcamp on building a Netflix Clone! This project was made possible through their guidance, and the learning experience was truly valuable. This project is made purely for educational and portfolio purposes.
+
+
+## 📬 Contact
 If you have any questions or feedback, feel free to reach out:
-
 GitHub: [abhinav-vr](github.com/abhinav-vr-45)
-
 LinkedIn:[Abhinav V R](https://www.linkedin.com/in/abhinavvr)
 
 
