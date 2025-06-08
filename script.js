@@ -31,3 +31,13 @@ movieCards.forEach((card) => {
     card.style.transform = "scale(1)";
   });
 });
+
+//Scroll Horizontally
+
+    const contentRows = document.querySelectorAll('.content-row');
+  contentRows.forEach(row => {
+    row.addEventListener('wheel', e => {
+      e.preventDefault();
+      row.scrollLeft += e.deltaY;
+    }, { passive: false });
+  });
