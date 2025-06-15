@@ -1,4 +1,6 @@
 # 🎬 Netflix Clone
+### 🌐 Live Demo: [Click Here to Visit the Site 🚀](https://abhinav-netflix-clone.vercel.app/)
+![Landing Page](assets/screenshots/landing_page.jpg)
 
 ## 🚀 Overview
 This **Netflix Clone** is a fully responsive web application developed using **HTML, CSS, and JavaScript**, designed to replicate the core functionalities and visual appeal of Netflix. The project features a sleek and interactive **landing page**, where users can sign up with their email, select a language, and explore FAQs before proceeding to the **authentication page**. Upon login using predefined credentials, users are redirected to the **home page**, which consists of a dynamic **navigation bar** with sections like **Home, TV Shows, Movies, New & Popular, and My List**. The home page features various categories such as **movies, anime, TV shows, sitcoms, US TV dramas, and K-dramas**. Additionally, a **profile page** is included where users can view their **subscription plan, account settings, and preferences** and sign out seamlessly. The entire website is **fully responsive**, ensuring an optimal experience across various screen sizes and devices.This project is a demonstration of **front-end development skills**, emphasizing UI design, responsiveness, and user interaction. 🚀  
@@ -37,9 +39,6 @@ This **Netflix Clone** is a fully responsive web application developed using **H
 
 ## 📸 Screenshots
 
-### 🌟 Landing Page:
-![Landing Page](assets/screenshots/landing_page.jpg)
-
 ### 🌟 Login Page:
 ![LoginPage](assets/screenshots/login.jpg)
 
@@ -61,7 +60,7 @@ This **Netflix Clone** is a fully responsive web application developed using **H
 
 ---
 
-## Authentication Credentials:
+## 🔐Authentication Credentials:
 
 ### Username: **'abhinav'**
 ### Password: **'abhi123'**
@@ -116,7 +115,7 @@ Inspired by the original Netflix UI & UX. This project is made purely for educat
 ## 📬 Contact
 If you have any questions or feedback, feel free to reach out:
 ### GitHub: [abhinav-vr](https://github.com/abhinav-vr-45)
-### LinkedIn:[Abhinav V R](https://www.linkedin.com/in/abhinavvr)
+### LinkedIn: [Abhinav V R](https://www.linkedin.com/in/abhinavvr)
 
 ---
 
