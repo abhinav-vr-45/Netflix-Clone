@@ -17,7 +17,7 @@ profileIcon.addEventListener("click", () => {
 //Home Section Redirecting
 const Logo = document.querySelector(".navbar-brand");
 Logo.addEventListener("click", () => {
-  window.location.href = "index.html";
+  window.location.href = "home.html";
 });
 
 // Movie Card 
