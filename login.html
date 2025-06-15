@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login</title>
-  <link rel="icon" type="image/x-icon" href="https://images.icon-icons.com/2699/PNG/512/netflix_logo_icon_170919.png">
-  <style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="icon" type="image/x-icon" href="https://images.icon-icons.com/2699/PNG/512/netflix_logo_icon_170919.png">
+</head>
+<style>
     @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap");
 
 * {
@@ -28,7 +29,8 @@ body::before {
     width: 100%;
     height: 100%;
     background: url("assets/hero-img.jpg");
-    background-position: fill;
+    background-size: cover;
+    background-position: center;
 }
 
 nav {
@@ -168,8 +170,20 @@ form .form-help :where(label, a) {
         display: none;
     }
 
-    nav, .form-wrapper {
+    .form-wrapper {
         padding: 20px;
+    }
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+    }
+    nav a {
+        display: flex;
+        justify-content: center;
+        width: 100%;
     }
 
     nav a img {
@@ -185,10 +199,9 @@ form .form-help :where(label, a) {
         margin: 25px 0 40px;
     }
 }
-  </style>
-</head>
+</style>
 <body>
-  <nav>
+    <nav>
         <a href="#"><img src="assets/logo.svg" alt="logo"></a>
     </nav>
     <div class="form-wrapper">
@@ -218,4 +231,37 @@ form .form-help :where(label, a) {
         </small>
     </div>
 </body>
+<script>
+    document.querySelector("form").addEventListener("submit", function(event) {
+    event.preventDefault(); // Prevent form submission
+
+    const validUsername = "abhinav";
+    const validPassword = "abhi123";
+
+    const enteredUsername = document.querySelector("input[type='text']").value;
+    const enteredPassword = document.querySelector("input[type='password']").value;
+
+    const passwordField = document.querySelector("input[type='password']");
+
+    const existingError = document.querySelector(".error-message");
+    if (existingError) {
+        existingError.remove();
+    }
+
+    if (enteredUsername === validUsername && enteredPassword === validPassword) {
+        window.location.href = "home.html"; // Redirect to home.html
+    } else {
+ 
+        const errorMessage = document.createElement("p");
+        errorMessage.textContent = "Invalid username or password. Please try again.";
+        errorMessage.classList.add("error-message");
+        errorMessage.style.color = "red";
+        errorMessage.style.fontSize = "0.9rem";
+        errorMessage.style.marginTop = "5px";
+
+        passwordField.parentNode.appendChild(errorMessage);
+    }
+});
+
+</script>
 </html>
