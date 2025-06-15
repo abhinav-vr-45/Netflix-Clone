@@ -233,9 +233,9 @@ form .form-help :where(label, a) {
 </body>
 <script>
     document.querySelector("form").addEventListener("submit", function(event) {
-    event.preventDefault(); // Prevent form submission
+    event.preventDefault(); 
 
-    const validUsername = "abhinav";
+    const validUsername = "abhinav@email.com";
     const validPassword = "abhi123";
 
     const enteredUsername = document.querySelector("input[type='text']").value;
@@ -249,7 +249,7 @@ form .form-help :where(label, a) {
     }
 
     if (enteredUsername === validUsername && enteredPassword === validPassword) {
-        window.location.href = "home.html"; // Redirect to home.html
+        window.location.href = "home.html"; 
     } else {
  
         const errorMessage = document.createElement("p");

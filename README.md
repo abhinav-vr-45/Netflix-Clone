@@ -21,7 +21,7 @@ This **Netflix Clone** is a fully responsive web application developed using **H
 - 🔄 **Navigation Bar** – Home, TV Shows, Movies, New & Popular, My List  
 - 📥 **Landing Page** – Email input to get started, language selection, FAQs  
 - 🔐 ***Login Authentication**  
-  - *Username*: 'abhinav'  
+  - *Email*: 'abhinav@email.com'  
   - *Password*: 'abhi123' 
 - 👤 **Profile Page** – View Account Info, Manage Account, Change Password, Sign Out  
 - 📄 **Footer** on Landing & Home pages
@@ -62,7 +62,7 @@ This **Netflix Clone** is a fully responsive web application developed using **H
 
 ## 🔐Authentication Credentials:
 
-### Username: **'abhinav'**
+### Email: **'abhinav@email.com'**
 ### Password: **'abhi123'**
 
 ---
@@ -84,6 +84,7 @@ This **Netflix Clone** is a fully responsive web application developed using **H
 
 
 ## 🚀 Future Enhancements
+
 ### 🔗 Backend Integration – Add user authentication and streaming functionality.
 
 ### 🎥 Real Content – Connect with an API to fetch real movie data.
